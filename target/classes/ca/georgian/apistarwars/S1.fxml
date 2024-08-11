@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="557.0" prefWidth="755.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgian.apistarwars.s1Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <AnchorPane prefHeight="702.0" prefWidth="715.0">
+        <children>
+            <Label layoutX="19.0" layoutY="36.0" text="Name:">
+            <font>
+               <Font size="18.0" />
+            </font></Label>
+            <Label fx:id="nameLabel" layoutX="94.0" layoutY="39.0" prefHeight="17.0" prefWidth="554.0">
+            <font>
+               <Font size="18.0" />
+            </font></Label>
+
+            <Label layoutX="17.0" layoutY="81.0" text="Height:" />
+            <Label fx:id="heightLabel" layoutX="92.0" layoutY="81.0" prefHeight="17.0" prefWidth="220.0" />
+
+            <Label layoutX="17.0" layoutY="107.0" text="Mass:" />
+            <Label fx:id="massLabel" layoutX="92.0" layoutY="107.0" prefHeight="17.0" prefWidth="341.0" />
+
+            <Label layoutX="15.0" layoutY="134.0" text="Hair Color:" />
+            <Label fx:id="hairColorLabel" layoutX="92.0" layoutY="134.0" prefHeight="17.0" prefWidth="304.0" />
+
+            <Label layoutX="14.0" layoutY="160.0" text="Skin Color:" />
+            <Label fx:id="skinColorLabel" layoutX="94.0" layoutY="160.0" prefHeight="17.0" prefWidth="179.0" />
+
+            <Label layoutX="16.0" layoutY="187.0" text="Eye Color:" />
+            <Label fx:id="eyeColorLabel" layoutX="92.0" layoutY="187.0" prefHeight="17.0" prefWidth="230.0" />
+
+            <Label layoutX="15.0" layoutY="214.0" text="Birth Year:" />
+            <Label fx:id="birthYearLabel" layoutX="92.0" layoutY="214.0" prefHeight="17.0" prefWidth="124.0" />
+
+            <Label layoutX="15.0" layoutY="242.0" text="Gender:" />
+            <Label fx:id="genderLabel" layoutX="94.0" layoutY="242.0" prefHeight="17.0" prefWidth="124.0" />
+
+            <!-- Back button -->
+            <Button layoutX="655.0" layoutY="478.0" onAction="#onMoveBack" text="Back" />
+        </children>
+    </AnchorPane>
+</VBox>
