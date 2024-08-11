@@ -1,4 +1,4 @@
-Star Wars Character Finder - JavaFX Application
+#Star Wars Character Finder - JavaFX Application
 
 Overview
 
